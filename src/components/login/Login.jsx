@@ -42,7 +42,7 @@ const Login = () => {
     <div className={classes.loginContainer}>
       <div className={classes.loginWrapper}>
         <div className={classes.loginLeftSide}>
-          <img src={img} className={classes.leftImg}/>
+          <img src={img} alt="Woman eating" className={classes.leftImg}/>
         </div>
         <div className={classes.loginRightSide}>
           <h2 className={classes.title}>Login</h2>

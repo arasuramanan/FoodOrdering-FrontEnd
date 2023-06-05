@@ -27,7 +27,7 @@ const FoodDetails = () => {
       setFoodsDetails(data)
      }
      fetchFoodDetails()
-  }, [id])
+  }, [id, token])
 
   const changeQuantity = (command) => {
     if(command === 'dec'){
@@ -46,7 +46,7 @@ const FoodDetails = () => {
     <div className={classes.container}>
       <div className={classes.wrapper}>
         <div className={classes.left}>
-          <img src={`https://foodordering-backend6.onrender.com/images/${foodDetails?.img}`}/>
+          <img src={`http://localhost:5000/images/${foodDetails?.img}`}/>
         </div>
         <div className={classes.right}>
           <h2 className={classes.title}>{foodDetails?.title}</h2>

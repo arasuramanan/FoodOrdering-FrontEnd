@@ -35,16 +35,16 @@ const Navbar = () => {
         <div className={classes.center}>
           <ul className={classes.list}>
           <li className={classes.listItem}>
-              <a href="#">Home</a>
+              <Link to="#">Home</Link>
             </li>
             <li className={classes.listItem}>
-              <a href="#contacts">Contacts</a>
+              <Link to="#contacts">Contacts</Link>
             </li>
             <li className={classes.listItem}>
-              <a href="#foods">Foods</a>
+              <Link to="#foods">Foods</Link>
             </li>
             <li className={classes.listItem}>
-              <a href="#faq">FAQ</a>
+              <Link to="#faq">FAQ</Link>
             </li>
             <li className={classes.listItem}>
               <Link to='/create'>Create</Link>

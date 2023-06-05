@@ -42,7 +42,7 @@ const Signup = () => {
     <div className={classes.signUpContainer}>
       <div className={classes.signUpWrapper}>
         <div className={classes.signUpLeftSide}>
-          <img src={img} className={classes.leftImg} />
+          <img src={img} alt="signup" className={classes.leftImg} />
         </div>
         <div className={classes.signUpRightSide}>
           <h2 className={classes.title}>Sign Up</h2>

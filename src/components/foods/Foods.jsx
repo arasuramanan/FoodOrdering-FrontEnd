@@ -14,7 +14,7 @@ const Foods = () => {
             <Link to={`/foods/${foodType.name}`} key={foodType.id} className={classes.food}>
               <h4>{foodType.name}</h4>
               <div className={classes.imgContainer}>
-                <img src={foodType.img}/>
+                <img src={foodType.img} alt="foodType" />
               </div>
             </Link>
           ))}
