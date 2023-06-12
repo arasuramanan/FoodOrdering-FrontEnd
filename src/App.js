@@ -25,9 +25,9 @@ function App() {
     <div>
        <Navbar />
        <Routes>
-         <Route path='/' element={<Home />} />
+         <Route path='/home' element={<Home />} />
          <Route path='/login' element={<Login />} />
-         <Route path='/signup' element={<Signup />} />
+         <Route path='/' element={<Signup />} />
          <Route path='/create' element={<Create />} />
          <Route path='/food/:id' element={<FoodDetails />} />
          <Route path='/foods/:id' element={<FoodCatalog />} />
